@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style>
+      body  {
+        background-image: url("https://static.tumblr.com/55de07252dd4cc0820ad9dac48dd20ba/wwtew4e/XJFoftl0f/tumblr_static_tumblr_static_eb6vracdodko0c04gg8kcwso8_focused_v3.jpg");
+      }
+      </style>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+    <div id="root"  class="centrarElementos" >
+      <h1 id="encabezado">Cipher</h1>
+      <p>
+      <h2 id="TextoDeIntro">Cifrador y decifrador de mensajes secretos</h2>
+      <h2 id="definicion">Las Guardianas estelares usan mensajes ocultos para sus misiones</h2>
+      </p>
+      <input id="CajaParaCifrar" placeholder="Escribe tu texto para cifrar" />
+      <p>
+      <button id="BotonCifrar" type="button">Cifra aquí</button>
+      </p>
+      <input id="CajaParaDecifrar" placeholder="Escribe tu texto para decifrar" />
+      <p>
+      <button id="BotonDecifrar" type="button">Decifra aquí</button>
+      </p>
+      <p>
+      <h2 id="explicacion">Cada guardiana usa un cifrado distinto</h2>
+      <h2 id="Elige">Elige una guardiana para cifrar o decifrar un mensaje y coloca tu texto en el lugar que corresponde</h2>
+      </p>
+    </div>
+    <div id="personajes" >
+      <img src="ELEMENTOS/JINX.png" id="jinx" class="imagen 1"/>
+      <img src="ELEMENTOS/LUX.png" id="lux" class="imagen 2"/>
+      <img src="ELEMENTOS/NEKO.png" id="neeko" class="imagen 3"/>
+      <img src="ELEMENTOS/RAKAN.png" id="rakan" class="imagen 4"/>
+      <img src="ELEMENTOS/XAYAN.png" id="xayan" class="imagen 5"/>
+      <img src="ELEMENTOS/SORAKA (1).png" id="soraka" class="imagen 6"/>
+      <img src="ELEMENTOS/ZOE.png" id="zoe" class="imagen 7"/>
+    </div>
+    <div id="musica">
+      <audio src="ELEMENTOS/musica.mp3" preload="auto" autoplay loop controls></audio>
     </div>
     <script src="index.js" type="module"></script>
   </body>

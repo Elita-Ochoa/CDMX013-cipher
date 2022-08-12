@@ -68,7 +68,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### HTML
 
-- [ ] **Uso de HTML semántico**
+- [] **Uso de HTML semántico**
 
   <details><summary>Links</summary><p>
 
