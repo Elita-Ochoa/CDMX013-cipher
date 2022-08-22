@@ -84,7 +84,7 @@ soraka.addEventListener("click", ()=>{
     xayah.classList.replace("imagenSeleccionada","imagen");
     soraka.classList.replace("imagen", "imagenSeleccionada");
     zoe.classList.replace("imagenSeleccionada","imagen");
-    cifrado=35;
+    cifrado=33;
 });
 
 zoe.addEventListener("click", ()=>{
